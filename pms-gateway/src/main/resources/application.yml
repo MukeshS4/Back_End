@@ -1,0 +1,152 @@
+jwt:
+  secret: Agastin
+server:
+  port: 8080
+
+#Eureka Client Configuration
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: localhost
+
+#Spring Cloud Gateway Routing Configuration
+spring:
+  application:
+    name: pms-gateway
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      - id: user
+        uri: lb://pms-user/user
+        predicates:
+        - Path=/user/**
+        filters:
+        - name: CircuitBreaker
+          args:
+            name: customBreaker
+            retries: 10
+            fallbackUri: forward:/fallback
+      - id: PMS
+        uri: lb://pms-auth/PMS
+        predicates:
+        - Path=/PMS/**
+        filters:
+        - name: Retry
+          args:
+            retries: 10
+            methods: GET,POST
+            backoff:
+              firstBackoff: 10s
+              maxBackoff: 20s
+              factor: 2
+              basedOnPreviousValue: false
+      - id: patient
+        uri: lb://pms-patient/patient
+        predicates:
+        - Path=/patient/**
+      - id: community
+        uri: lb://pms-community/community
+        predicates:
+        - Path=/community/**
+      globalcors:
+        corsConfiguration:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200"
+            allowedHeaders: "*"
+            allowedMethods:
+            - GET
+            - POST
+            - DELETE
+            - PUT
+            - OPTIONS
+        addToSimpleUrlHandlerMapping: true
+    
+#Cors Policy Configuration
+#spring.cloud.gateway.globalcors.add-to-simple-url-handler-mapping=true
+#spring.cloud.gateway.globalcors.cors-configurations.'[/**]'.allowed-origins=http://localhost:4200/**
+#spring.cloud.gateway.globalcors.cors-configurations.'[/**]'.allowed-methods=GET
+#spring.cloud.gateway.globalcors.cors-configurations.'[/**]'.allowed-headers=Access-Control-Allow-Origin,Content-type
+#
+#resilience4j.circuitbreaker:
+#    instances:
+#        user:
+#            registerHealthIndicator: true
+#            slidingWindowSize: 100
+#        PMS:
+#            registerHealthIndicator: true
+#            slidingWindowSize: 10
+#            permittedNumberOfCallsInHalfOpenState: 3
+#            slidingWindowType: TIME_BASED
+#            minimumNumberOfCalls: 20
+#            waitDurationInOpenState: 50s
+#            failureRateThreshold: 50
+#            eventConsumerBufferSize: 10
+#            recordFailurePredicate: io.github.robwin.exception.RecordFailurePredicate
+            
+#resilience4j.retry:
+#    instances:
+#        user:
+#            maxAttempts: 10
+#            waitDuration: 2s
+#            enableExponentialBackoff: true
+##            exponentialBackoffMultiplier: 3
+##            retryExceptions:
+##                - org.springframework.web.client.HttpServerErrorException
+##                - java.io.IOException
+##            ignoreExceptions:
+##                - io.github.robwin.exception.BusinessException
+#        PMS:
+#            maxAttempts: 10
+#            waitDuration: 2s
+#            enableExponentialBackoff: true
+#            retryExceptions:
+#                - org.springframework.web.client.HttpServerErrorException
+#                - java.io.IOException
+#            ignoreExceptions:
+#                - io.github.robwin.exception.BusinessException
+                
+#resilience4j.bulkhead:
+#    instances:
+#        user:
+#            maxConcurrentCalls: 10
+#        PMS:
+#            maxWaitDuration: 10ms
+#            maxConcurrentCalls: 20
+#            
+#resilience4j.thread-pool-bulkhead:
+#  instances:
+#    patient:
+#      maxThreadPoolSize: 1
+#      coreThreadPoolSize: 1
+#      queueCapacity: 1
+#        
+#resilience4j.ratelimiter:
+#    instances:
+#        user:
+#            limitForPeriod: 10
+#            limitRefreshPeriod: 1s
+#            timeoutDuration: 0
+#            registerHealthIndicator: true
+#            eventConsumerBufferSize: 100
+#        PMS:
+#            limitForPeriod: 6
+#            limitRefreshPeriod: 500ms
+#            timeoutDuration: 3s
+#            
+#resilience4j.timelimiter:
+#    instances:
+#        user:
+#            timeoutDuration: 2s
+#            cancelRunningFuture: true
+#        PMS:
+#            timeoutDuration: 1s
+#            cancelRunningFuture: false

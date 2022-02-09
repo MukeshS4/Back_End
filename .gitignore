@@ -1,0 +1,7 @@
+/.metadata/
+*/target/**
+pms-gateway/.project
+pms-gateway/.settings/**
+pms-gateway/target/**
+pms-user/.settings/**
+pms-user/target/**

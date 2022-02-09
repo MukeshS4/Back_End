@@ -1,0 +1,101 @@
+[INFO ] 2021-12-13 15:28:25.471 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_301 on IMCTBCP9-MSL1 with PID 24684 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-13 15:28:25.478 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-13 15:28:25.479 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-13 15:28:43.527 [restartedMain] UserApplication - Started UserApplication in 19.337 seconds (JVM running for 21.306)
+[INFO ] 2021-12-13 15:34:00.513 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_301 on IMCTBCP9-MSL1 with PID 13120 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-13 15:34:00.522 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-13 15:34:00.524 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-13 15:34:21.913 [restartedMain] UserApplication - Started UserApplication in 23.215 seconds (JVM running for 25.4)
+[DEBUG] 2021-12-13 15:34:21.922 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-13 15:34:21.922 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-13 15:34:21.922 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-13 15:34:21.922 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-13 15:34:21.922 [restartedMain] UserApplication - This is a fatal message
+[INFO ] 2021-12-14 11:45:49.550 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 25168 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-14 11:45:49.554 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-14 11:45:49.555 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-14 11:46:11.897 [restartedMain] UserApplication - Started UserApplication in 23.336 seconds (JVM running for 24.322)
+[DEBUG] 2021-12-14 11:46:11.903 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-14 11:46:11.903 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-14 11:46:11.903 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-14 11:46:11.903 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-14 11:46:11.903 [restartedMain] UserApplication - This is a fatal message
+[INFO ] 2021-12-16 17:08:22.220 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 11072 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-16 17:08:22.230 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-16 17:08:22.231 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-16 17:08:55.255 [restartedMain] UserApplication - Started UserApplication in 34.935 seconds (JVM running for 38.311)
+[DEBUG] 2021-12-16 17:08:55.267 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-16 17:08:55.267 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-16 17:08:55.267 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-16 17:08:55.267 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-16 17:08:55.267 [restartedMain] UserApplication - This is a fatal message
+[INFO ] 2021-12-16 17:10:17.149 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 20572 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-16 17:10:17.156 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-16 17:10:17.156 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-16 17:10:33.302 [restartedMain] UserApplication - Started UserApplication in 17.421 seconds (JVM running for 18.785)
+[DEBUG] 2021-12-16 17:10:33.310 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-16 17:10:33.310 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-16 17:10:33.310 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-16 17:10:33.310 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-16 17:10:33.310 [restartedMain] UserApplication - This is a fatal message
+[INFO ] 2021-12-16 17:17:09.937 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 20572 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-16 17:17:09.938 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-16 17:17:09.938 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-16 17:20:37.043 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 26216 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-16 17:20:37.047 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-16 17:20:37.047 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-16 17:20:52.813 [restartedMain] UserApplication - Started UserApplication in 16.91 seconds (JVM running for 18.027)
+[DEBUG] 2021-12-16 17:20:52.822 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-16 17:20:52.823 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-16 17:20:52.823 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-16 17:20:52.823 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-16 17:20:52.823 [restartedMain] UserApplication - This is a fatal message
+[INFO ] 2021-12-16 17:22:31.636 [http-nio-8088-exec-1] AppointmentController - ${jndi:rmi://10.2.4.5:1099/CabBookingService}
+[INFO ] 2021-12-16 17:24:07.138 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 26216 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-16 17:24:07.139 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-16 17:24:07.139 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-16 17:24:12.435 [restartedMain] UserApplication - Started UserApplication in 6.01 seconds (JVM running for 217.65)
+[DEBUG] 2021-12-16 17:24:12.441 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-16 17:24:12.442 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-16 17:24:12.442 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-16 17:24:12.442 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-16 17:24:12.442 [restartedMain] UserApplication - This is a fatal message
+[INFO ] 2021-12-16 17:24:37.581 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 15396 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-16 17:24:37.588 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-16 17:24:37.588 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-16 17:24:54.002 [restartedMain] UserApplication - Started UserApplication in 17.971 seconds (JVM running for 19.811)
+[DEBUG] 2021-12-16 17:24:54.007 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-16 17:24:54.008 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-16 17:24:54.008 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-16 17:24:54.008 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-16 17:24:54.008 [restartedMain] UserApplication - This is a fatal message
+[INFO ] 2021-12-16 17:25:13.389 [http-nio-8088-exec-1] AppointmentController - ${jndi:rmi://10.2.4.5:1099/CabBookingService}
+[INFO ] 2021-12-16 17:33:13.695 [http-nio-8088-exec-5] AppointmentController - ${jndi:rmi://10.2.4.5:1099/CabBookingService}
+[INFO ] 2021-12-16 17:34:11.726 [http-nio-8088-exec-6] AppointmentController - ${jndi:rmi://10.2.4.5:1099/CabBookingService}
+[INFO ] 2021-12-16 17:39:14.782 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 15396 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-16 17:39:14.785 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-16 17:39:14.786 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-16 17:39:20.765 [restartedMain] UserApplication - Started UserApplication in 6.673 seconds (JVM running for 886.574)
+[DEBUG] 2021-12-16 17:39:20.769 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-16 17:39:20.769 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-16 17:39:20.769 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-16 17:39:20.769 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-16 17:39:20.769 [restartedMain] UserApplication - This is a fatal message
+[INFO ] 2021-12-16 17:39:25.760 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 15396 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-16 17:39:25.762 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-16 17:39:25.762 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-16 17:39:30.124 [restartedMain] UserApplication - Started UserApplication in 5.056 seconds (JVM running for 895.934)
+[DEBUG] 2021-12-16 17:39:30.127 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-16 17:39:30.128 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-16 17:39:30.128 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-16 17:39:30.128 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-16 17:39:30.128 [restartedMain] UserApplication - This is a fatal message
+[INFO ] 2021-12-16 17:39:43.705 [restartedMain] UserApplication - Starting UserApplication using Java 1.8.0_281 on IMCTBCP9-MSL1 with PID 15396 (C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user\target\classes started by MukeshS4 in C:\Users\MukeshS4\git\pms-new\PMS-BackEnd\pms-user)
+[DEBUG] 2021-12-16 17:39:43.706 [restartedMain] UserApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+[INFO ] 2021-12-16 17:39:43.706 [restartedMain] UserApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-12-16 17:39:50.925 [restartedMain] UserApplication - Started UserApplication in 8.005 seconds (JVM running for 916.735)
+[DEBUG] 2021-12-16 17:39:50.930 [restartedMain] UserApplication - This is a debug message
+[INFO ] 2021-12-16 17:39:50.930 [restartedMain] UserApplication - This is an info message
+[WARN ] 2021-12-16 17:39:50.931 [restartedMain] UserApplication - This is a warn message
+[ERROR] 2021-12-16 17:39:50.931 [restartedMain] UserApplication - This is an error message
+[FATAL] 2021-12-16 17:39:50.931 [restartedMain] UserApplication - This is a fatal message
